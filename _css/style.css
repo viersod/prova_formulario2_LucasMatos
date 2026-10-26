@@ -1,0 +1,46 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    background-image: url(../_img/Gemini_Generated_Image_s9ll6ps9ll6ps9ll.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abaInicial, .fundo, .dadosPessoais, .btn-final, .explorar{
+    border: solid 2px rgb(105, 1, 1);
+    text-decoration: none;
+    background-color: rgba(84, 84, 84, 0.267);
+}
+.dadosPessoais, .explorar{
+    padding: 45px;
+}
+.fundo{
+    margin-left: 650px;
+    margin-right: 650px;
+}
+.search{
+    text-decoration: none;
+    background-color: rgba(44, 44, 44, 0.432);
+    padding: 16px;
+}
+.dadosPessoais{
+    display: box;
+}
+.abaInicial{
+    border: none;
+    background-color: rgba(44, 44, 44, 0.432);
+    padding: 40px;
+}
+h1,h2{
+    color:rgb(224, 0, 0);
+}
+.btn-final{
+    padding: 15px;
+}
+#salvar, #reset{
+    border: solid 1px black;
+    padding: 12px;
+    background-color:rgb(200, 0, 0);
+    border-radius: 5px;
+}

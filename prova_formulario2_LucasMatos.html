@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PROVA FORMULÁRIO</title>
+        <link rel="stylesheet" href="_css/style.css">
+    </head>
+    
+    <body>
+        <div class="abaInicial">
+            <h1>SONORA</h1>
+            <ul>
+                Música
+                Gêneros
+                Artistas
+            </ul>
+        </div>
+        <div class="fundo">
+            <form>
+                <div class="dadosPessoais">
+                    <h2>Dados pessoais</h2>
+                    <legend>Dados pessoais</legend>
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <p></p>
+                    <input type="number" name="idade" placeholder="Idade" required>
+                    <p></p>
+                    <label>Com que frequência você ouve muita música?<br>Pouco<input type="range" name="qtdmusica" required>Muito</label>
+                    <p></p>
+                    <label>Gênero musical favorito:<br></label>
+                    <select>
+                        <option>Selecione uma opção</option>
+                        <option>Metal/Rock e variantes</option>
+                        <option>MPB</option>
+                        <option>POP</option>
+                        <option>VKEI</option>
+                        <option>KPOP</option>
+                        <option>Eletrônica</option>
+                    </select>
+                    <p></p>
+                    <label>toca algum instrumento?</label>
+                    <input type="radio" value="sim">Sim
+                    <input type="radio" value="nao">Não
+                </div>
+                <div class="explorar">
+                    <h2>Explore novas músicas</h2>
+                    <label>Tem interesse em explorar novos gêneros musicais?</label>
+                    <p></p>
+                    <input type="radio" value="sim" checked>Sim
+                    <input type="radio" value="nao">Não
+                    <p></p>
+                    <label>Qual gênero você quer conhecer?</label>
+                    <p></p>
+                    <select>
+                        <option>Selecione uma opção</option>
+                        <option>Metal/Rock e variantes</option>
+                        <option>MPB</option>
+                        <option>POP</option>
+                        <option>VKEI</option>
+                        <option>KPOP</option>
+                        <option>Eletrônica</option>
+                    </select>
+                </div>
+        </form>
+        <form method="get" action="https://www.google.com" target="_blank">
+            <div class="search">
+                <input type="search" name="q" placeholder="Pesquise por um artista">
+                <button type="submit" name="submit" value="Pesquisar">Pesquisar</button>
+            </div>
+        </form>
+        <div class="btn-final">
+            <input type="submit" id="salvar" value="SALVAR">
+            <input type="reset" id="reset" value="LIMPAR">
+        </div>
+    </div>
+</body>
+
+</html>
